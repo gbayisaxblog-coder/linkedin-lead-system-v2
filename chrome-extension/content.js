@@ -6,7 +6,7 @@ class LinkedInExtractor {
     this.extractedLeads = [];
     this.dailyEmailTarget = 100;
     this.validEmailsFound = 0;
-    this.apiEndpoint = 'https://linkedin-lead-system-production.up.railway.app/api';
+    this.apiEndpoint = 'https://linkedin-lead-system-v2-production.up.railway.app/api';
   }
 
   async start(emailTarget = 100) {
