@@ -176,7 +176,7 @@ async function checkCatchAll(domain) {
 // Main lead enrichment function
 async function enrichLead(lead) {
   try {
-    console.log(`🔍 Processing: ${lead.name} at ${lead.company}`);
+    console.log(`�� Processing: ${lead.name} at ${lead.company}`);
     
     // Check/resolve company domain
     let company = await Company.findOne({ 
